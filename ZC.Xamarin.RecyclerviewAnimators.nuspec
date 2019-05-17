@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ZC.Xamarin.RecyclerviewAnimators</id>
+    <version>1.2.2.0</version>
+    <authors>ZDZCode</authors>  
+    <licenseUrl>https://github.com/zdzcode-projects/ZC.Xamarin.RecyclerviewAnimators/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/zdzcode-projects/ZC.Xamarin.RecyclerviewAnimators</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin.Android binding to RecyclerviewAnimators</description>
+    <tags>Xamarin, Android, Binding, RecyclerView, Swipe Menu, Context</tags>
+    <dependencies>      
+      <dependency id="Xamarin.Android.Support.v7.RecyclerView" version="28.0.0.1" />
+    </dependencies>
+  </metadata>
+</package>
