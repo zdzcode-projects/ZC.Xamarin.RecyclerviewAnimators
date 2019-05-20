@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZC.Xamarin.RecyclerviewAnimators", "ZC.Xamarin.RecyclerviewAnimators\ZC.Xamarin.RecyclerviewAnimators.csproj", "{82C850BF-2644-459E-8790-1CA1F7152366}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{28E6619F-147F-4F40-A6EF-31709082D5CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinAndroidExample", "Examples\XamarinAndroidExample\XamarinAndroidExample.csproj", "{C61A6F94-064A-4B57-94A6-9152E3396BCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,18 @@ Global
 		{82C850BF-2644-459E-8790-1CA1F7152366}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82C850BF-2644-459E-8790-1CA1F7152366}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82C850BF-2644-459E-8790-1CA1F7152366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C61A6F94-064A-4B57-94A6-9152E3396BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61A6F94-064A-4B57-94A6-9152E3396BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C61A6F94-064A-4B57-94A6-9152E3396BCB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C61A6F94-064A-4B57-94A6-9152E3396BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C61A6F94-064A-4B57-94A6-9152E3396BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C61A6F94-064A-4B57-94A6-9152E3396BCB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C61A6F94-064A-4B57-94A6-9152E3396BCB} = {28E6619F-147F-4F40-A6EF-31709082D5CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68A6F334-A0A6-42CA-99A6-321E07C7DED3}
