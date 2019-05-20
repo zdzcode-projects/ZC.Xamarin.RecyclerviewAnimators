@@ -6,7 +6,7 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
-  <!--<attr path="/api/package[@name='jp.wasabeef.recyclerview.animators']/class[@name='FadeInAnimator']"
+  <attr path="/api/package[@name='jp.wasabeef.recyclerview.animators']/class[@name='FadeInAnimator']"
     name="extends">jp.wasabeef.recyclerview.animators.BaseItemAnimatorInvoker</attr>
   <attr path="/api/package[@name='jp.wasabeef.recyclerview.animators']/class[@name='FadeInDownAnimator']"
   name="extends">jp.wasabeef.recyclerview.animators.BaseItemAnimatorInvoker</attr>
@@ -59,7 +59,7 @@ name="extends">jp.wasabeef.recyclerview.animators.BaseItemAnimatorInvoker</attr>
 name="extends">jp.wasabeef.recyclerview.animators.BaseItemAnimatorInvoker</attr>
 
   <attr path="/api/package[@name='jp.wasabeef.recyclerview.animators']/class[@name='SlideInUpAnimator']"
-    name="extends">jp.wasabeef.recyclerview.animators.BaseItemAnimatorInvoker</attr>-->
+    name="extends">jp.wasabeef.recyclerview.animators.BaseItemAnimatorInvoker</attr>
 
 
 </metadata>

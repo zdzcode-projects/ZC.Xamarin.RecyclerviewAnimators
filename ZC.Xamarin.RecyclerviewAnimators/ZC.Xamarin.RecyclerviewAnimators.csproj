@@ -69,7 +69,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\recyclerview-animators-3.0.0.aar" />
+    <None Include="Jars\recyclerview-animators-1.2.2.aar" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
