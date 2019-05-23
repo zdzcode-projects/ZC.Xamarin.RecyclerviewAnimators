@@ -30,9 +30,7 @@ namespace XamarinAndroidExample
 
             FindViewById<View>(Resource.Id.btn_animator_sample).Click += MainActivity_Click;
 
-            FindViewById<View>(Resource.Id.btn_adapter_sample).Click += MainActivity_Click1;
-
-            FindViewById<SwitchCompat>(Resource.Id.grid).CheckedChange += MainActivity_CheckedChange;
+            FindViewById<View>(Resource.Id.btn_adapter_sample).Click += MainActivity_Click1;            
             ////.setOnCheckedChangeListener { _, isChecked -> enabledGrid = isChecked }
         }
 

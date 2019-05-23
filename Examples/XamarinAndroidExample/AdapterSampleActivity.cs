@@ -26,9 +26,9 @@ namespace XamarinAndroidExample
         private AlphaInAnimationAdapter alphaInAnimationAdapter;
 
         protected override void OnCreate(Bundle savedInstanceState)
-        {
+        {            
             base.OnCreate(savedInstanceState);
-
+            
             SetContentView(Resource.Layout.activity_adapter);
 
             SetSupportActionBar(FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.tool_bar));
